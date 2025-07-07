@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="assets/css/bootstrap.css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web Void</title>
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Componentes (Navbar e Footer) -->
+  <link rel="stylesheet" href="assets/components/navbar/navbar.css" />
+  <link rel="stylesheet" href="assets/components/footer/footer.css" />
 </head>
 <body>
 
-  <button class="btn btn-primary mb-4">Clique aqui</button>
+  <!-- Navbar dinâmica -->
+  <div data-include="assets/components/navbar/navbar.html"></div>
+  
+   
+  <div class="texto">
+    <h1>Serviços:</h1>
+  <p>cards com nossos serviços</p>
+  </div>
+  
+  <!-- Footer dinâmico -->
+  <div data-include="assets/components/footer/footer.html"></div>
 
-
+  <!-- JS principal -->
   <script src="assets/js/bootstrap.js/bootstrap.bundle.js"></script>
+  <script src="assets/components/navbar/navbar.js"></script>
+  <script src="assets/components/footer/footer.js"></script>
+  <script src="assets/js/include.js"></script> <!-- Para carregar os includes -->
 </body>
 </html>

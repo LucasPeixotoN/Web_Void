@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fundo com imagem */
+.main-header {
+  background: url('/web_void/assets/img/planoFundo.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #111111b4; 
+  position: relative;
+  z-index: 1;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #c7c4c4;
+}
+
+/* Hero Section (centralizado no meio da tela) */
+.hero {
+ position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fffefe;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+
+.hero p {
+  font-size: 20px;
+
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.planoFundo {
+    width: 100%;
+    height: 600px;
+}
