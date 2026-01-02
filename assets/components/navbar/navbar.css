@@ -12,7 +12,7 @@ body, html {
 
 /* Fundo com imagem */
 .main-header {
-  background: url('/web_void/assets/img/planoFundo.jpg') no-repeat center center/cover;
+  background: url('/assets/img/planoFundo.jpg') no-repeat center center/cover;
   height: 100vh;
   color: white;
   position: relative;
