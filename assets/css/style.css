@@ -2,12 +2,19 @@
     text-align: center;
 }
 
+.sobre {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
 
 .cards-servicos {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  text-align:center;  
 }
 
 .cards-servicos .column {
