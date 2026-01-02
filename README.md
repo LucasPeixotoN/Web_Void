@@ -9,9 +9,9 @@
  
   <p>
     <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=github" alt="Status"/>
-    <img src="https://img.shields.io/github/license/LucasPeixotoN/web_void?style=for-the-badge" alt="License"/>
-    <img src="https://img.shields.io/github/stars/LucasPeixotoN/web_void?style=for-the-badge&logo=github" alt="Stars"/>
-    <img src="https://img.shields.io/github/forks/LucasPeixotoN/web_void?style=for-the-badge&logo=github" alt="Forks"/>
+    <img src="https://img.shields.io/github/license/LucasPeixotoN/Web_Void?style=for-the-badge" alt="License"/>
+    <img src="https://img.shields.io/github/stars/LucasPeixotoN/Web_Void?style=for-the-badge&logo=github" alt="Stars"/>
+    <img src="https://img.shields.io/github/forks/LucasPeixotoN/Web_Void?style=for-the-badge&logo=github" alt="Forks"/>
   </p>
  <p align="center">
     <!-- Descrição básica e resumida do projeto -->
@@ -32,16 +32,55 @@
 <br><br>
 
 <h2 align="center">📖 Sobre</h2> 
-<p align="center">[CONTEUDO SOBRE O PROJETO]</p>
+<p align="center">Este projeto tem como foco ser uma landing page básica para uma empresa de desenvolvimento de software denomidada Web Void.</p>
 
 <h2 align="center">⚡ Funcionalidades</h2> 
-<p align="center">[FUNCIONALIDADES DO PROJETO]</p>
-
-<h2 align="center">🛠️ Tecnologias</h2> 
-<p align="center">[TECNOLOGIAS DO PROJETO]</p>
+<h3 align="center">Páginas:</h3>
+<p align="center">Home • about • Contact</p>
+<h2 align="center">🛠️ Ferramentas e Linguagens</h2> 
+<div align="center">
+  • CSS <br>
+  • HTML5 <br>
+  • Visual Studio code <br>
+  • Netlify <br>
+</div>
 
 <h2 align="center">🚀 Instalação</h2> 
-<p align="center">[COMO INSTALAR O PROJETO]</p>
+<div align="center">
+
+<p>
+✨ <b>Instalação simples e imediata</b> ✨<br>
+Este projeto utiliza apenas <b>HTML e CSS</b>,<br>
+não sendo necessário instalar dependências ou ferramentas adicionais.
+</p>
+
+<hr width="60%">
+
+<p><b>📥 Baixando o projeto</b></p>
+
+<pre>
+<code>
+git clone https://github.com/seu-usuario/nome-do-projeto.git
+</code>
+</pre>
+
+<p>
+Ou faça o download direto pelo botão <b>Code → Download ZIP</b>.
+</p>
+
+<hr width="60%">
+
+<p><b>🌐 Executando o site</b></p>
+
+<pre>
+<code>
+Abra o arquivo index.html no navegador
+</code>
+</pre>
+
+<p>
+💜 Pronto! O site estará disponível localmente em poucos segundos.
+</p>
 
 <br><br>
 
