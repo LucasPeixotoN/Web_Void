@@ -1,3 +1,16 @@
 .texto {
     text-align: center;
 }
+
+
+.cards-servicos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cards-servicos .column {
+  flex: 1;
+  min-width: 300px;
+}
