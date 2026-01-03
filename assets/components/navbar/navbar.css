@@ -88,9 +88,6 @@ html, body {
   padding: 14px 32px;
 }
 
-/* ========================= */
-/* 📱 RESPONSIVIDADE */
-/* ========================= */
 
 /* Tablets */
 @media (max-width: 768px) {
@@ -111,12 +108,10 @@ html, body {
 /* Celulares */
 @media (max-width: 480px) {
   .navbar {
-    flex-direction: column;
     gap: 10px;
   }
 
   .nav-links {
-    flex-direction: column;
     gap: 12px;
   }
 
